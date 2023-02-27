@@ -1,0 +1,12 @@
+git init
+
+git submodule add https://github.com/glfw/glfw.git submodules/glfw
+git submodule add https://github.com/ocornut/imgui.git submodules/imgui
+
+git submodule update --init --recursive
+
+**	Use Generator "Visual Studio 17 2022"
+	for checking whether the libs / files have been setup correctly.
+
+	"generator": "Ninja",
+    "generator": "Visual Studio 17 2022",
